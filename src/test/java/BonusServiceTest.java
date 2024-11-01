@@ -6,7 +6,7 @@ public class BonusServiceTest {
 
     @Test
     void shouldCalculateForRegisteredAndUnderLimit() {
-       BonusService service = new BonusService();
+        BonusService service = new BonusService();
 
         // подготавливаем данные:
         long amount = 1000;
